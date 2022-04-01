@@ -1,10 +1,10 @@
-.body {
+body {
     font-family: 'Nunito', sans-serif;
+    background-color: #A96DA3;
 }
 
 .wrapper {
     height: 100vh;
-    background-color: #A96DA3;
 }
 
 #quote-box {
@@ -13,6 +13,11 @@
     border-radius: 5px;
     max-width: 600px;
     margin: auto;
+}
+
+#quotation {
+    color: #b93592;
+    font-size: 3rem;
 }
 
 #text p {
@@ -33,12 +38,24 @@
     font-size: 1.2rem;
 }
 
+#new-quote:hover {
+    cursor: pointer;
+    background-color: #b93592;
+}
+
 #tweet-quote,
 #copy-quote-btn {
     font-size: 1.5rem;
     margin-right: 0.5em;
     color: #4A1942;
 }
+
+#tweet-quote:hover,
+#copy-quote-btn:hover {
+    cursor: pointer;
+    color: #b93592;
+}
+
 
 #share-btns {
     padding-top: 1em;

@@ -55,9 +55,9 @@ class App extends React.Component {
       <div className="wrapper d-flex align-items-center justify-content-center">
           <div className="col-7 box">
             <div id="quote-box">
-            <div className="text-center" id="text">
-              <p>{quoteText}</p>
-            </div>  
+              <div className="text-center" id="text">
+                <p>{quoteText}</p>
+              </div>  
             <div className="d-flex justify-content-end" id="author">
               <p>- {quoteAuthor}</p>
             </div>
