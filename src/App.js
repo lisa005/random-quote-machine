@@ -5,7 +5,7 @@ import { faTwitter } from '@fortawesome/fontawesome-free-brands'
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles.css';
+import './App.css';
 
 const API = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json';
 
