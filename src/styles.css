@@ -1,0 +1,67 @@
+.body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: #A96DA3;
+}
+
+#quote-box {
+    background-color: #faf3eb;
+    padding: 2rem;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#text p {
+    color: #282A2A;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+#author p {
+    color: #484949;
+    font-size: 1.1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+#new-quote {
+    background-color: #4A1942;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#tweet-quote,
+#copy-quote-btn {
+    font-size: 1.5rem;
+    margin-right: 0.5em;
+    color: #4A1942;
+}
+
+#share-btns {
+    padding-top: 1em;
+}
+
+@media (min-width: 600px) {
+    #text p {
+        font-size: 2rem;
+    }
+    
+    #author p {
+        font-size: 1.5rem;
+        margin-right: 1em;
+    }
+
+    #share-btns {
+        padding: 0;
+    }
+    
+    #tweet-quote,
+    #copy-quote-btn {
+    font-size: 2rem;
+    margin-right: 0.5em;
+    color: #4A1942;
+}
+}
